@@ -5,7 +5,7 @@
   "author": "sassy.watanabe@gmail.com",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^0.22.0",
     "hubot": "^3.1.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
