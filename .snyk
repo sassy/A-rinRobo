@@ -1,0 +1,86 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - hubot > express > connect > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-core > node-stringprep > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > body-parser > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > compression > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > connect-timeout > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > express-session > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > finalhandler > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > morgan > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-index > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-client > node-xmpp-core > node-stringprep > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-static > send > debug:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:hawk:20160119':
+    - hubot-hipchat > node-xmpp-client > request > hawk:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:hoek:20180212':
+    - hubot-hipchat > node-xmpp-client > request > hawk > hoek:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-client > request > hawk > boom > hoek:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-client > request > hawk > sntp > hoek:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:http-signature:20150122':
+    - hubot-hipchat > node-xmpp-client > request > http-signature:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:mime:20170907':
+    - hubot > express > connect > serve-static > send > mime:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:ms:20170412':
+    - hubot > express > connect > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-core > node-stringprep > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > connect-timeout > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > body-parser > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > compression > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > express-session > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > finalhandler > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > morgan > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-index > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot-hipchat > node-xmpp-client > node-xmpp-core > node-stringprep > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-static > send > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-favicon > ms:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:negotiator:20160616':
+    - hubot > express > connect > compression > accepts > negotiator:
+        patched: '2020-06-06T16:42:43.215Z'
+    - hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:request:20160119':
+    - hubot-hipchat > node-xmpp-client > request:
+        patched: '2020-06-06T16:42:43.215Z'
+  'npm:tunnel-agent:20170305':
+    - hubot-hipchat > node-xmpp-client > request > tunnel-agent:
+        patched: '2020-06-06T16:42:43.215Z'
