@@ -23,7 +23,7 @@
     "snyk": "^1.336.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.12.x"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
