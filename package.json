@@ -20,7 +20,7 @@
     "hubot-sasaki": "git@github.com:sassy/hubot-sasaki.git",
     "hubot-scripts": "2.17.2",
     "hubot-shipit": "0.2.1",
-    "snyk": "1.369.3"
+    "snyk": "1.370.0"
   },
   "engines": {
     "node": "0.12.x"
