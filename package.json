@@ -6,7 +6,7 @@
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "cheerio": "0.22.0",
-    "hubot": "3.3.2",
+    "hubot": "3.4.0",
     "hubot-diagnostics": "1.0.0",
     "hubot-google-images": "0.2.7",
     "hubot-google-translate": "0.2.1",
