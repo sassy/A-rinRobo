@@ -15,7 +15,7 @@
     "hubot-hipchat": "2.12.0",
     "hubot-maps": "0.0.3",
     "hubot-pugme": "0.1.1",
-    "hubot-redis-brain": "1.0.0",
+    "hubot-redis-brain": "2.1.0",
     "hubot-rules": "1.0.0",
     "hubot-sasaki": "git@github.com:sassy/hubot-sasaki.git",
     "hubot-scripts": "2.17.2",
